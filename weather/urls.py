@@ -21,5 +21,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('weatherapp.urls')),
 ]
+<<<<<<< HEAD
 
 urlpatterns += staticfiles_urlpatterns()
+=======
+urlpatterns += staticfiles_urlpatterns()
+
+>>>>>>> 62f24d34f0dc00080c653e463cd69dfb6ce9ada5
