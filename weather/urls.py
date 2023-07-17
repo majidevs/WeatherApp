@@ -22,4 +22,8 @@ urlpatterns = [
     path('', include('weatherapp.urls')),
 ]
 
+
 urlpatterns += staticfiles_urlpatterns()
+
+
+
